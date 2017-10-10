@@ -1,0 +1,47 @@
+body {
+    background: #F8F8F8;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #4400FF;
+}
+
+.doacao_wrapper {
+    background-color: orangered;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    box-shadow: 1px 1px 2px #C3C3C3;
+}
+
+.doacao_wrapper:last-child {
+    margin-right: 50px;
+}
+
+.navbar {
+    background: #FFF;
+}
+
+.doacao_idDoacao {
+    color: #000;
+    font-size: 22px;
+    text-decoration: none;
+    padding-left: 100px;
+}
+
+.doacao_data {
+    color: #5900FF;
+    display: block;
+}
+
+.doacao_resumo {
+    color: #000000;
+    margin-right: 10px;
+}
+
+.ver_mais {
+    text-align: center;
+    background: #FFF;
+    padding: 20px;
+}

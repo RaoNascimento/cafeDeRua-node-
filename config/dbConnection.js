@@ -1,19 +1,14 @@
 var mysql = require('mysql');
-var connMySQL = function () {
-    console.log('Conexao estabelecida'); // A conexão so aciona quando é chamada
-  
-        return mysql.createConnection({
 
-            host: 'localhost',
-            user: 'root',
-            password: '172901',
-            database: 'portal_noticias'
+var connMySQL = function() {
+    return mysql.createConnection({
+        host: 'localhost',
+        user: 'root',
+        password: '7777777',
+        database: 'cafederua'
+    });
+}
 
-        });
-    }
-
-    module.exports = function () {
-        console.log('O autoload carregou');
-        return connMySQL;  
-
+module.exports = function() {
+    return connMySQL;
 }
